@@ -6,7 +6,6 @@ header {
   max-width: 1240px;
   width: 95%;
   margin: 0 auto;
-  /* border: 2px solid red; */
 }
 
 .divflx {
@@ -67,4 +66,70 @@ li a {
   font-weight: 400;
   line-height: normal;
   text-align: center;
+}
+
+.s-2 {
+  width: 235px;
+  height: 650px;
+  border: 2px solid red;
+  margin-top: 87px;
+  margin-left: 100px;
+}
+.p1 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+
+.p2 {
+  color: #010101;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.p3 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cardsdiv {
+  display: flex;
+}
+.cards {
+  margin-left: 33px;
+  width: 286px;
+  height: 330px;
+  border: 2px solid red;
+}
+
+.c1 {
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 23px;
+  margin-bottom: 9px;
+}
+
+.c2 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 286px;
 }
