@@ -4,7 +4,7 @@ header {
 
 .container {
   max-width: 1240px;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -70,11 +70,12 @@ li a {
 
 .s-2 {
   width: 235px;
-  height: 650px;
-  border: 2px solid red;
+  height: 20px;
+  /* border: 2px solid red; */
   margin-top: 87px;
   margin-left: 100px;
   margin-right: 83px;
+  vertical-align: top;
 }
 .p1 {
   color: #636060;
@@ -107,14 +108,17 @@ li a {
 .cardsdiv {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid red;
+  flex-direction: row;
+  /* border: 2px solid red; */
   width: 961px;
-  align-items: end;
+  margin-right: 140px;
+  margin-bottom: 140px;
 }
 .cards {
   margin-right: 33px;
   width: 286px;
   height: 330px;
+  flex-direction: row;
 }
 
 .c1 {
